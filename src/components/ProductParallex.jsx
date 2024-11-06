@@ -18,7 +18,7 @@ const ProductParallex = () => {
           <TbArrowNarrowRight className="text-3xl" />
         </Link>
       </div>
-      <div className="bgimg-2 w-screen h-[35vh] sm:h-[50vh]px-5 md:px-10 lg:px-14 py-5 md:py-20 flex flex-col items-start gap-4">
+      <div className="bgimg-2 w-screen h-[35vh] sm:h-[50vh] md:h-screen px-5 md:px-10 lg:px-14 py-5 md:py-20 flex flex-col items-start gap-4">
         <span className="font-montserrat text-lg">02</span>
         <h1 className="font-bebasNeue text-5xl md:text-7xl lg:text-8xl w-1/3">
           Rolling Lawns
@@ -31,7 +31,7 @@ const ProductParallex = () => {
           <TbArrowNarrowRight className="text-3xl" />
         </Link>
       </div>
-      <div className="bgimg-3 w-screen h-[35vh] sm:h-[50vh] px-5 md:px-10 lg:px-14 py-5 md:py-20 flex flex-col items-start gap-4">
+      <div className="bgimg-3 w-screen h-[35vh] sm:h-[50vh] md:h-screen px-5 md:px-10 lg:px-14 py-5 md:py-20 flex flex-col items-start gap-4">
         <span className="font-montserrat text-lg">03</span>
         <h1 className="font-bebasNeue text-5xl md:text-7xl lg:text-8xl w-1/3">
           Penthouse 501

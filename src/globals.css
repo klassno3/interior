@@ -71,6 +71,7 @@ body
   background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 
 }
 

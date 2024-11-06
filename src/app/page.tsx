@@ -2,7 +2,6 @@
 import React, { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Service from "../../public/services.webp";
 import HeroImage from "@/components/HeroImage";
 import Image from "next/image";
@@ -14,7 +13,6 @@ const Page = () => {
   const titleRef = useRef<HTMLDivElement>(null);
   useGSAP(
     () => {
-      gsap.registerPlugin(ScrollTrigger);
       const tl = gsap.timeline();
       tl.fromTo(
         ".title",

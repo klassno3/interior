@@ -1,9 +1,13 @@
-import type { Metadata } from "next";
+"use client";
+import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { Montserrat, Bebas_Neue } from "next/font/google";
+
+import "../globals.css";
 import Provider from "./provider";
 import Navigation from "@/components/Navigation";
-import "../globals.css";
 import Footer from "@/components/Footer";
+import SplashScreen from "@/components/SplashScreen";
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -18,16 +22,15 @@ const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-export const metadata: Metadata = {
-  title: "Interior design",
-  description: "Interior design",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
@@ -35,9 +38,19 @@ export default function RootLayout({
           <div
             className={`${montserrat.variable} ${bebasNeue.variable} overflow-hidden`}
           >
-            <Navigation />
-            {children}
-            <Footer />
+            {isHome && isLoading ? (
+              <SplashScreen
+                finishLoading={() => {
+                  setIsLoading(false);
+                }}
+              />
+            ) : (
+              <div className="">
+                <Navigation />
+                {children}
+                <Footer />
+              </div>
+            )}
           </div>
         </Provider>
       </body>
