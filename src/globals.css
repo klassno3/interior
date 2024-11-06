@@ -71,7 +71,6 @@ body
   background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 
 }
 
@@ -84,6 +83,7 @@ body
   .bgimg-3
   {
     background-attachment: scroll;
+
 
   }
 }

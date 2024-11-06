@@ -4,7 +4,7 @@ import Link from "next/link";
 import { projects } from "@/data";
 const page = () => {
   return (
-    <div className="text-foreground py-28 md:py-32 lg:py-40 px-5 md:px-10 lg:px-14 mx-auto flex flex-col gap-5 lg:gap-10">
+    <div className="max-w-[1440px] text-foreground py-28 md:py-32 lg:py-40 px-5 md:px-10 lg:px-14 mx-auto flex flex-col gap-5 lg:gap-10">
       <h2 className="font-bebasNeue text-3xl lg:text-4xl tracking-wide uppercase">
         Project
       </h2>

@@ -89,9 +89,9 @@ const Page = () => {
         </Link>
       </div>
       <HeroImage />
-      <div id="about" className="py-10 md:py-20">
+      <div id="about" className="py-10 md:py-20 max-w-[1440px] mx-auto">
         <div className="flex flex-col md:flex-row gap-5 md:gap-10 px-5 md:px-10 lg:px-14">
-          <div className="md:w-1/2 flex flex-col gap-1 md:gap-2 md:py-10">
+          <div className="md:w-1/2  flex flex-col gap-1 md:gap-2 ">
             <h2 className="font-bebasNeue text-3xl md:text-4xl tracking-wide">
               About us
             </h2>
@@ -130,7 +130,7 @@ const Page = () => {
         </div>
       </div>
       <ProductParallex />
-      <div className="flex flex-col gap-5 items-start px-5 md:px-10 lg:px-14 py-5 lg:py-20">
+      <div className="max-w-[1440px] mx-auto flex flex-col gap-5 items-start px-5 md:px-10 lg:px-14 pt-5 pb-10 lg:py-20">
         <div className="uppercase font-bebasNeue text-3xl md:text-4xl tracking-wide">
           our services
         </div>
@@ -140,7 +140,7 @@ const Page = () => {
             alt="service"
             width={2000}
             height={2000}
-            className="w-2/3 md:w-1/4"
+            className=" md:w-1/4"
           />
           <div className="md:w-3/4 grid grid-cols-1 md:grid-cols-2 grids-row-2 md:gap-x-14 gap-x-7 md:gap-y-10 gap-y-5  font-montserrat">
             <div className="flex flex-col items-start gap-4">
@@ -211,16 +211,18 @@ const Page = () => {
         </div>
       </div>
       <FAQ />
-      <div className="bg-foreground my-10 lg:mb-20 py-5 md:py-10 px-5 md:px-10 lg:px-14 text-background flex flex-col gap-5 md:flex-row items-center justify-between w-screen">
-        <h5 className="font-montserrat uppercase text-sm md:text-lg w-3/4 md:w-1/2">
-          Are you interested in a design or have any other inquiries?
-        </h5>
-        <Link
-          href="/contact"
-          className=" text-xs md:text-lg button border-[1.3px] border-background flex items-center justify-center uppercase bg-background text-foreground md:w-24 md:h-24 w-20 h-20 font-montserrat rounded-full "
-        >
-          Contact
-        </Link>
+      <div className="bg-foreground my-10 lg:mb-20 py-5 md:py-10 px-5 md:px-10 lg:px-14 text-background w-screen">
+        <div className="max-w-[1440px] mx-auto flex flex-col gap-5 md:flex-row items-center justify-between ">
+          <h5 className="font-montserrat uppercase text-center md:text-left text-sm md:text-lg md:w-1/2">
+            Are you interested in a design or have any other inquiries?
+          </h5>
+          <Link
+            href="/contact"
+            className=" text-xs md:text-lg button border-[1.3px] border-background flex items-center justify-center uppercase bg-background text-foreground md:w-24 md:h-24 w-20 h-20 font-montserrat rounded-full "
+          >
+            Contact
+          </Link>
+        </div>
       </div>
       <Testimonial />
     </div>

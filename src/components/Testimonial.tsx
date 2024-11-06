@@ -49,7 +49,7 @@ const Testimonial = () => {
   return (
     <div
       id="testimonial"
-      className="flex gap-3 items-center md:gap-10 font-montserrat px-5 lg:px-14 pb-10 md::pb-20 lg:w-9/12 mx-auto text-foreground"
+      className="flex max-w-[1440px] mx-auto  gap-3 items-center md:gap-10 font-montserrat px-5 lg:px-14 pb-10 md::pb-20 lg:w-9/12 mx-auto text-foreground"
     >
       <button
         onClick={() =>

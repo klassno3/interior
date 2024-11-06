@@ -4,13 +4,13 @@ import Image from "next/image";
 import Map from "../../../public/map.png";
 const page = () => {
   return (
-    <div className="flex flex-col items-start gap-5 md:gap-10 py-28 md:py-40 px-5 md:px-10 lg:px-14">
+    <div className="max-w-[1440px] mx-auto flex flex-col items-start gap-5 md:gap-10 py-28 md:py-40 px-5 md:px-10 lg:px-14">
       <h2 className="font-bebasNeue uppercase text-3xl md:text-4xl tracking-wide">
         Let&apos;s <span className="text-primary">talk</span>
       </h2>
       <div className="flex flex-col gap-10 md:flex-row justify-between w-full">
         <div className="flex md:w-1/2 flex-col gap-10">
-          <div className="w-full ">
+          <div className="w-full flex md:hidden ">
             <Image src={Map} alt="" />
           </div>
           <div className="font-montserrat font-light flex gap-20  text-sm md:text-lg">

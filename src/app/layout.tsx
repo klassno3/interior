@@ -36,7 +36,7 @@ export default function RootLayout({
       <body>
         <Provider>
           <div
-            className={`${montserrat.variable} ${bebasNeue.variable} overflow-hidden`}
+            className={`${montserrat.variable} ${bebasNeue.variable} overflow-hidden `}
           >
             {isHome && isLoading ? (
               <SplashScreen

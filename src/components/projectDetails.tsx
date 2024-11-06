@@ -66,7 +66,7 @@ const ProjectDetails = ({ project }: projectProps) => {
           {project.subtitle}
         </p>
       </div>
-      <div className="wrapper px-5 md:px-10 lg:px-14 py-5 md:py-10 lg:py-14 flex flex-col gap-7 justify-between items-start">
+      <div className="max-w-[1440px] mx-auto  wrapper px-5 md:px-10 lg:px-14 py-5 md:py-10 lg:py-14 flex flex-col md:flex-row gap-7 justify-between items-start">
         <div className="flex flex-col gap-2 md:gap-5">
           <h3 className="font-bebasNeue uppercase text-3xl md:text-5xl lg:text-7xl w-full md:w-1/3 tracking-wide">
             {project.title}
@@ -93,7 +93,7 @@ const ProjectDetails = ({ project }: projectProps) => {
         height={1000}
         className="w-screen md:h-screen object-cover"
       />
-      <div className="flex  md:flex-row gap-3 md:gap-5 pt-3 md:pt-5">
+      <div className="flex w-full md:flex-row gap-3 md:gap-5 pt-3 md:pt-5">
         <Image
           src={project.images[3]}
           alt={project.title}
@@ -128,7 +128,7 @@ const ProjectDetails = ({ project }: projectProps) => {
         height={1000}
         className="w-screen md:h-screen object-cover"
       />
-      <div className="wrapperTwo px-5 md:px-10 lg:px-14 py-5 md:py-10 lg:py-14 flex gap-7 flex-col md:flex-row justify-between items-start">
+      <div className="wrapperTwo max-w-[1440px] mx-auto  px-5 md:px-10 lg:px-14 py-5 md:py-10 lg:py-14 flex gap-7 flex-col md:flex-row justify-between items-start">
         <div className="flex flex-col gap-1 md:gap-2">
           <h3 className="font-bebasNeue uppercase text-3xl md:text-5xl lg:text-6xl w-full md:w-1/2 tracking-wide">
             {project.titleTwo}
@@ -173,30 +173,34 @@ const ProjectDetails = ({ project }: projectProps) => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2  gap-3 pb-3 md:gap-5 md:pb-5">
+      <div className="grid grid-cols-2 w-screen gap-3 pb-3 md:gap-5 md:pb-5">
         <Image
           src={project.images[8]}
           alt={project.title}
           width={1000}
           height={1000}
+          className="w-full"
         />{" "}
         <Image
           src={project.images[9]}
           alt={project.title}
           width={1000}
           height={1000}
+          className="w-full"
         />
         <Image
           src={project.images[10]}
           alt={project.title}
           width={1000}
           height={1000}
+          className="w-full"
         />
         <Image
           src={project.images[11]}
           alt={project.title}
           width={1000}
           height={1000}
+          className="w-full"
         />
       </div>
       <div className="flex flex-col items-center justify-center gap-3 md:gap-5 py-10 md:py-20 px-5 ">

@@ -58,7 +58,7 @@ function Accordion({ items }: itemsType) {
   });
 
   return (
-    <div className="w-screen px-5 md:px-10 lg:px-14 ">
+    <div className="max-w-[1440px] mx-auto w-screen px-5 md:px-10 lg:px-14 ">
       <div className="border-foreground border-t "></div>
       {renderedItems}
     </div>

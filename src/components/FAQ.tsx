@@ -30,11 +30,13 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="flex w-full flex-col gap-5 md:gap-10 pb-5 md:pb-10 lg:pb-20">
-      <div className="uppercase font-bebasNeue text-3xl lg:text-4xl pl-5 md:pl-10 lg:pl-14 tracking-wide">
-        our approach
+    <div className="max-w-[1440px] mx-auto">
+      <div className=" flex w-full flex-col  gap-5 md:gap-10 pb-5 md:pb-10 lg:pb-20">
+        <div className="uppercase font-bebasNeue text-3xl lg:text-4xl pl-5 md:pl-10 lg:pl-14 tracking-wide">
+          our approach
+        </div>
+        <Accordion items={items} />
       </div>
-      <Accordion items={items} />
     </div>
   );
 };
