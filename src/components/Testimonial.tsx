@@ -41,7 +41,6 @@ const Testimonial = () => {
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
   };
-
   useEffect(() => {
     const interval = setInterval(nextSlide, 50000); // Change slide every 3 seconds
     return () => clearInterval(interval); // Cleanup interval on component unmount
