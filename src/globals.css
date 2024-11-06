@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root
+{
+  --font-bebas-neue: 'Bebas Neue', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+.light
+{
+  --background: rgba(241, 240, 235);
+  --foreground: rgba(15, 15, 15);
+  --border: rgba(46, 45, 45, 0.516);
+}
+
+.dark
+{
+  --background: rgba(15, 15, 15);
+  --foreground: rgba(241, 240, 235);
+  --border: rgba(245, 240, 240, 0.516);
+}
+
+/* Apply the background and foreground colors */
+body
+{
+  background-color: var(--background);
+  color: var(--foreground);
+  border: var(--border);
+}
+
+.bgImage
+{
+  background-image: url("./../public/heroImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1
+{
+  background-image: url("./../public/projectOne.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.bgimg-2
+{
+  background-image: url("./../public/projectTwo.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.bgimg-3
+{
+  background-image: url("./../public/projectThree.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3
+{
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px)
+{
+
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3
+  {
+    background-attachment: scroll;
+
+  }
+}
+
+
+/* @media (max-width: 768px)
+{
+
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3,
+  .bgimg-4
+  {
+    background-image: none;
+    height: min-content;
+  }
+} */

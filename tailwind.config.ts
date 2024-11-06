@@ -11,9 +11,15 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        border: "var(--border)",
+      },
+      fontFamily: {
+        bebasNeue: ["var(--font-bebas-neue)", "sans-serif"],
+        montserrat: ["var(--font-montserrat)", "sans-serif"],
       },
     },
   },
+  darkMode: "class",
   plugins: [],
 };
 export default config;
