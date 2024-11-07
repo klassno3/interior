@@ -10,7 +10,7 @@ const page = () => {
       </h2>
       <div className="flex flex-col gap-10 md:flex-row justify-between w-full">
         <div className="flex md:w-1/2 flex-col gap-10">
-          <div className="w-full flex md:hidden ">
+          <div className="w-full flex bg-red-500 md:hidden ">
             <Image src={Map} alt="" />
           </div>
           <div className="font-montserrat font-light flex gap-20  text-sm md:text-lg">
