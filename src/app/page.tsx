@@ -59,7 +59,7 @@ const Page = () => {
         <span className="subTitle">e</span>
         <span className="subTitle">r</span>
       </h3>
-      <h1 className="flex justify-center font-bebasNeue uppercase text-4xl md:text-5xl lg:text-6xl xl:text-8xl overflow-hidden  tracking-[2px] md:tracking-[4px]">
+      <h1 className="flex justify-center font-bebasNeue uppercase text-4xl md:text-5xl  lg:text-8xl overflow-hidden tracking-wide">
         <span className="title">E</span>
         <span className="title">n</span>
         <span className="title">o</span>
