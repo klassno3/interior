@@ -6,26 +6,26 @@ const FAQ = () => {
       id: "01",
       label: "Meeting & Briefing",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ea asperiores quo quasi nesciunt provident accusantium reiciendis excepturi numquam molestias necessitatibus temporibus dolores, et eveniet sequi impedit assumenda ex maiores.",
+        "This initial stage involves meeting with clients to understand their needs, preferences, and budget for the project. Gathering information about the space to be designed, including measurements, existing structures, and any specific requirements.",
     },
     {
       id: "02",
       label: "Brainstom",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ea asperiores quo quasi nesciunt provident accusantium reiciendis excepturi numquam molestias necessitatibus temporibus dolores, et eveniet sequi impedit assumenda ex maiores.",
+        "In this creative phase, ideas are generated based on the client's brief and the designer's expertise. Researching current trends, materials, and styles that align with the client's vision. Sketching rough concepts and exploring different possibilities for the space.",
     },
 
     {
       id: "03",
       label: "Design & Visualize",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ea asperiores quo quasi nesciunt provident accusantium reiciendis excepturi numquam molestias necessitatibus temporibus dolores, et eveniet sequi impedit assumenda ex maiores.",
+        "Developing detailed design plans based on the approved concepts. Creating mood boards, color schemes, furniture layouts, and material selections. Utilizing software tools like CAD or 3D modeling to provide clients with visual representations of the proposed design. Presenting the designs to the client for feedback and revisions before finalizing the plans.",
     },
     {
       id: "04",
       label: "Build & install",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ea asperiores quo quasi nesciunt provident accusantium reiciendis excepturi numquam molestias necessitatibus temporibus dolores, et eveniet sequi impedit assumenda ex maiores.",
+        "Once the design is approved, the implementation phase begins. Collaborating with contractors, vendors, and suppliers to execute the design plan. Overseeing the construction process to ensure that the design is implemented correctly and according to the specifications. Installing furniture, fixtures, and decorative elements to bring the design to life.",
     },
   ];
 

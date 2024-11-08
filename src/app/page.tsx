@@ -165,13 +165,13 @@ const Page = () => {
               </span>
               <div className="flex flex-col items-start gap-2">
                 <p className="text-base md:text-lg tracking-wide uppercase">
-                  Interior Design
+                  Design + Build
                 </p>
                 <p className="text-sm md:text-base ">
-                  With our years of experience in designing interiors of various
-                  brands and establishments in Addis Ababa, our
-                  multidisciplinary team knows how to design around spaces of
-                  just about every shape and size.{" "}
+                  The ‘Design and Build’ delivery approach has become the
+                  signature of duka interiors, gained through extensive
+                  knowledge and years of experience in successfully delivering
+                  projects in Addis Ababa, Ethiopia.
                 </p>
               </div>
             </div>
@@ -181,13 +181,12 @@ const Page = () => {
               </span>
               <div className="flex flex-col items-start gap-2">
                 <p className="text-base md:text-lg  tracking-wide uppercase">
-                  Interior Design
+                  consulting
                 </p>
                 <p className="text-sm md:text-base ">
-                  With our years of experience in designing interiors of various
-                  brands and establishments in Addis Ababa, our
-                  multidisciplinary team knows how to design around spaces of
-                  just about every shape and size.{" "}
+                  In a city where real estate is so valuable, We Specialize in
+                  ensuring every square meter of space in the interior designs
+                  we provide are both beautiful and functional.
                 </p>
               </div>
             </div>
@@ -197,13 +196,13 @@ const Page = () => {
               </span>
               <div className="flex flex-col items-start gap-2">
                 <p className="text-base md:text-lg tracking-wide uppercase">
-                  Interior Design
+                  Customer-first
                 </p>
                 <p className="text-sm md:text-base">
-                  With our years of experience in designing interiors of various
-                  brands and establishments in Addis Ababa, our
-                  multidisciplinary team knows how to design around spaces of
-                  just about every shape and size.{" "}
+                  We pride ourselves in being a Design and Build Company in the
+                  interior design industry in Addis Ababa, backed by a solid
+                  reputation of excellent service and a diverse professional
+                  team.
                 </p>
               </div>
             </div>

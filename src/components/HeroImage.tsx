@@ -27,7 +27,7 @@ export default function HeroImage() {
   });
   return (
     <div className="wrapper  bgImage w-full h-full md:h-screen py-5 z-10 mt-10 ">
-      <div className="md:hero max-w-[1440px] h-full flex flex-col md:flex-row gap-7 md:gap-5 lg:gap-10 justify-center items-center w-11/12 m-auto">
+      <div className="hero max-w-[1440px] h-full flex flex-col items-start md:flex-row gap-7 md:gap-5 lg:gap-10 justify-center w-11/12 m-auto">
         <div className="bg-background  px-4 py-4 w-[90%] md:w-1/3 flex flex-col gap-3 items-center">
           <Image
             src={ImageOne}
@@ -35,7 +35,7 @@ export default function HeroImage() {
             className="object-cover h-[150px] md:h-[200px]"
           />
           <p className="text-foreground uppercase font-montserrat text-xs md:text-sm text-center object-cover">
-            Interior design as in the picture and even better
+            Designing Dreams, Transforming Spaces
           </p>
         </div>
         <div className="bg-background px-4 py-4 w-[90%] md:w-1/3 flex flex-col gap-3 items-center">
@@ -45,7 +45,7 @@ export default function HeroImage() {
             className="object-cover  h-[150px] md:h-[200px]"
           />
           <p className="text-foreground uppercase font-montserrat text-xs md:text-sm text-center object-cover">
-            Interior design as in the picture and even better
+            Elevate Your Environment, Designing Beyond Imagination
           </p>
         </div>
         <div className="bg-background px-4 py-4 w-[90%] md:w-1/3 flex flex-col gap-3 items-center">
@@ -55,7 +55,7 @@ export default function HeroImage() {
             className="object-cover  h-[150px] md:h-[200px]"
           />
           <p className="text-foreground uppercase font-montserrat text-xs md:text-sm text-center">
-            Interior design as in the picture and even better
+            Where Vision Meets Reality, Designing Your World
           </p>
         </div>
       </div>

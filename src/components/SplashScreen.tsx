@@ -9,8 +9,8 @@ const SplashScreen = ({ finishLoading }: { finishLoading: () => void }) => {
     const tl = gsap.timeline({
       onComplete: finishLoading,
     });
-    tl.to(".logo", { duration: 0.6, scale: 0, ease: "slow.inOut" });
-    tl.to(".screen", { duration: 0.6, y: "100%", ease: "slow.inOut" });
+    tl.to(".logo", { duration: 1, scale: 0, ease: "slow.inOut" });
+    tl.to(".screen", { duration: 1, y: "100%", ease: "slow.inOut" });
   };
 
   useEffect(() => {
